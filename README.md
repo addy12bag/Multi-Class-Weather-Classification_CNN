@@ -58,7 +58,10 @@ Optionally, transfer learning models (ResNet18/34) can be used for higher accura
 
 ```python
 # Example call:
+
 img_path = "/kaggle/input/multiclass-weather-dataset/Multi-class Weather Dataset/Sunrise/sunrise10.jpg"
 label, conf = predict_image(img_path, model, transform, classes, device)
 print(f"Predicted Weather: {label}")
 print(f"Confidence: {conf:.2f}%")
+
+<img width="515" height="456" alt="Screenshot from 2025-10-28 12-53-48" src="https://github.com/user-attachments/assets/498628fe-cf66-4e4c-9287-eecafd71d637" />
